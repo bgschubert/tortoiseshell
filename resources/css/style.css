@@ -1,11 +1,13 @@
 html{
   font-size: 18px;
-  line-height: 1.4;
 }
 
 body{
   font-family: Helvetica;
+  line-height: 1.4;
 }
+
+/*Site Header Styling*/
 
 header{
   background-image: url("../images/glasses-bg.png");
@@ -84,4 +86,85 @@ li{
   font-size: 2rem;
   line-height: 1.2;
   color: black;
+}
+
+/*Site Body Styling*/
+
+.toprow{
+  margin: auto;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.image img{
+  width: 5rem;
+}
+
+.image .paper{
+  width: 3.5rem;
+}
+
+/*Details Styling*/
+
+.bottomrow {
+  width: 960px;
+  margin: auto;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.title{
+  background-color: cadetblue;
+  width: 10rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.detail {
+  width: 35%;
+  text-align: left;
+  margin: 2.5%
+}
+
+.header{
+  color: white;
+  margin-left: 1.25rem;
+}
+
+p {
+  padding-top: 1rem;
+}
+
+/*Site Footer Styling*/
+
+footer{
+  width: 960px;
+  margin: auto;
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+footer .sitename{
+  padding: 4rem 0px;
+}
+
+.sitename .black{
+  margin-left: 4rem;
 }
