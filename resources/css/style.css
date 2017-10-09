@@ -168,3 +168,59 @@ footer .sitename{
 .sitename .black{
   margin-left: 4rem;
 }
+
+/*Responsive Design - Media Quereies*/
+
+/*Tablet*/
+
+@media only screen and (min-width: 471px) and (max-width: 1024px){
+  header{
+    background-image: url("../images/glasses-bg.png");
+    height: 22rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .container{
+    width: 100%;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .banner{
+    background-color: cadetblue;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  .headline-container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .headline{
+    background-color: white;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .headline span{
+    padding: 1.5rem 4rem;
+    font-weight: bold;
+    font-size: 1.33rem;
+    color: black;
+  }
+}
+
+/*Mobile*/
